@@ -1,0 +1,37 @@
+body{
+    font-family: 'Raleway', sans-serif;
+}
+  
+.first_nav {
+    display: flex;
+    justify-content: space-between;
+   
+   
+}
+/* Pourquoi je suis obligée de le mettre dans nav position a la place de juste nav et pq espce en haut au niveau du trait  */
+.nav_position{
+    display: flex;
+    gap: 68px;
+    list-style: none;
+    text-decoration: none;
+    padding: 0px 50px 0 50px;
+    margin:-6px;
+}
+
+
+.nav_position a {
+    text-decoration: none;
+    color:black
+}
+
+.heb a {
+    color: #0065fc;
+    border-top:2px solid #0065fc;
+   
+}
+
+.logo{
+    padding:30px 50px 30px 50px
+  
+
+}
