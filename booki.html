@@ -18,61 +18,55 @@
 <body>
     <header>
         <div class="first_nav">
-        <div class="logo">
-            <img src="./img/Booki.png" alt="booki">
-        </div>
+            <img id="logo"src="./img/Booki.png" alt="booki">
             <nav>
-                <ul>
-                    <li><a class="active" href ="#">Hébergements</a></li>
+                <ul class="nav">
+                    <li><a href="#">Hébergements</a></li>
                     <li><a href="#">Activités</a></li>
                 </ul>
             </nav>
         </div>
          
-
+       <div class="spacing_header">
             <h1>Trouvez votre hébergement pour des vacances de rêve</h1>
             <p class="text">En plein centre-ville ou en pleine nature</p>
             
-            <div>
-              <button> <img src="./img/ping.png" alt="image ping"></button>
-              <input type="search" name="adress" id="adress">
-              <input type="submit" name="search" id="search" value="Rechercher">
+            <div class="search">
+              <img class="ping_nav" src="./img/ping.png" alt="image ping">
+              <div class="searchbar">
+              <input  class="marseille_input" type="search" value="Marseille, France">
+              </div>
+              <input class="search_button" type="submit" name="search" id="search" value="Rechercher">
             </div>
 
-            <section>
+            <section id="filters">  
                 <span>Filtres</span>
-                <div class="economique">
+                <div class="filter_btn">
                     <img src="./img/economique.png" alt="logo economique">
-                    <ul>
-                    <li>Economique</li>
-                    </ul>
+                    <span>Economique</span>
                 </div>
 
-                <div class="familiale">
+                <div class="filter_btn">
                     <img src="./img/familial.png" alt="logo familial">
-                    <ul>
-                    <li>Familiale</li>
-                    </ul>
+                    <span>Familial</span>
                 </div> 
 
-                <div class="romantique">
+                <div class="filter_btn">
                     <img src="./img/romantique.png" alt="logo romantique">
-                    <ul>
-                    <li>Romantique</li>
-                    </ul>
+                    <span>Romantique</span>
                 </div>
 
-                <div class="nos_pepites">
+                <div class="filter_btn">
                     <img src="./img/pepite.png" alt="logo pepite">
-                    <ul>
-                    <li>Nos pépites</li>
-                    </ul>
+                    <span>Nos pépites</span>
                 </div>
             </section>
            
 
-             <p class="text"> <img src="./img/info.png" alt="ping info">Plus de 500 logements sont disponibles dans cette ville</p>
-    </header>
+             <p class="info"> <img id="ping" src="./img/info.png" alt="ping info">Plus de 500 logements sont disponibles dans cette ville</p>
+       </div>
+     </header>
+
 
         <main>
 
@@ -95,12 +89,12 @@
                             <i class="fa-xs fa-solid fa-star" aria-hidden="true"></i>
                             <i class="fa-xs fa-solid fa-star" aria-hidden="true"></i>
                             <i class="fa-xs fa-solid fa-star" aria-hidden="true"></i>
-                            <i class="fa-xs fa-solid fa-star neutral-star" aria-hidden="true"></i>
+                            <i class="fa-xs fa-solid fa-star neutral-star" aria-hidden="true"></i>    
                             <span class="sr-only">Note de 4 sur 5</span>
                         </div>
                     </div>
                 </article>
-            </a>
+            </a> 
     
         <!--Hotel chez Amina -->
              <a href="#">
@@ -357,31 +351,33 @@
       <!-- Footer -->
       <footer>
             <!-- A propos -->
-            <div>
+            <div class="footer">
+                <div>
                 <h4>A propos</h4>
-                <ul>
+                <ul class="style_footer">
                     <li><a href="#">Fonctionnement du site</a></li>
                     <li><a href="#">Conditions générales</a></li>
                     <li><a href="#">Données et confidentialité</a></li>
                 </ul>
             </div>
 
-            <div>
+            <div class="list">
                 
                 <h4>Nos hébergements</h4>
-                <ul>
+                <ul class="style_footer">
                     <li><a href="#">Charte qualité</a></li>
                     <li><a href="#">Proposer votre hôtel</a></li>
                 </ul>
             </div>
 <!--  -->
             <!-- assistance -->
-            <div>
+            <div class="list">
                 <h4>Assistance</h4>
-                <ul>
-                    <li><a href="#">Centre d'aide</a></li>
+                <ul class="style_footer">
+                    <li><a href="#" style="text-decoration: none;">Centre d'aide</a></li>
                     <li><a href="#">Nous contacter</a></li>
                 </ul>
+            </div>
             </div>
 
         </footer>
