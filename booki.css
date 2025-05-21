@@ -13,8 +13,8 @@ body{
 
 .nav a:hover{
     color:#0065fc;
-    border: 2px #0065fc;
-    
+    border-top: 2px solid #0065fc;
+    padding-top: 10px;
 }
 
 
@@ -148,7 +148,13 @@ nav > ul a {
 }
 
 /* main */
-.first_section{
+main {
+    margin: 50px 50px 0px 50px;
+}
+
+
+
+.hebergements {
     display: flex ;
     background-color: #F2F2F2;
     border-radius: 15px;
@@ -158,16 +164,234 @@ nav > ul a {
     flex-wrap: wrap;
 }
 
-.card{
+.hebergements-cards {
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
     width: 100%;
+    
 }
 
-.card-title{
+.hebergements-title {
     padding-top: 10px;
     height: 26px;
+}
+
+
+
+.afficher-plus {
+    padding-bottom: 0px;
+   
+    height: 21px;
+    margin-bottom: -20px;
+}
+
+.afficher-plus a{
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.card {
+    background-color: #ffffff;
+    border-radius: 20px;
+    height: 210px;
+    width: 250px;
+}
+
+.card:hover {
+   cursor: pointer;
+   transform: scale(1.1);
+}
+
+.img-card {
+    border-radius: 20px 20px 0px 0px;
+    padding: 5px 5px 0px 5px;
+    height: 125px;
+    width: 240px;
+    object-fit: cover;
+}
+
+.card-content {
+    padding: 0px 0px 0px 10px;
+    text-decoration: none;
+    width: 230px;
+    height: 70px; 
+} 
+
+.card-txt {
+    color: #000000;
+   
+}
+
+.card-title {
+    font-size:16px ;
+    font-weight: 700;
+    color: #000000;
+    text-decoration: none;
+    margin-top: 5px;
+}
+
+.card-subtitle {
+    font-size: 14px;
+    font-weight: 400;
+    margin-top: -10px;
+}
+
+.card-rating {
+    margin-top: -10px;
+}
+
+.populaires {
+    flex-direction: column;
+    background-color: #F2F2F2;
+    border-radius: 15px;
+    padding: 0px 30px 0px 0px;
+    width: 400px;
+    height: 615px;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.hebergements-and-populaires {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+.cardt {
+    display: flex;
+    width: 370px;
+    height: 145px;
+    border-radius: 20px;
+    background-color: #ffffff;
+    margin: 30px;
+}
+
+.cardt:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+.section-title {
+    padding: 10px 0px 0px 30px;
+}
+
+.img-cardt {
+   width: 123px;
+   height: 135px;
+    border-radius: 20px 0px 0px 20px;
+    padding: 5px 0px 5px 5px;
+    flex-wrap: wrap;
+    object-fit: cover;
+}
+
+.Activités {
+    width: 1340px;
+    height: 560px;
+    margin: 35px 0px 35px 0px;
+}
+
+.activités-card {
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+.carda {
+    width: 297px;
+    height: 439px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 5px 5px #f2f2f2;
+    gap:30px;
+}
+
+.carda:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+.img-carda{
+    width: 297px;
+    height: 380px;
+    border-radius: 20px 20px 0px 0px;
+    object-fit: cover;
+}
+
+.card-title2{   
+    font-size: 16px;
+    font-weight: 700;
+    color: #000000;
+    padding: 0px 19px 0px 19px;
+    list-style: none;
+}
+
+.footer {
+    background-color: #F2F2F2;
+    display: flex;
+    margin: 0px 50px 0px 50px;
+    gap: 250px;
+    height: 163px;
+    width: 1340px;
+}
+
+.list {
+    padding-left: 20px;
+}
+
+.list a {
+    text-decoration: none;
+    color: #000000;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+
+.liste-cards {
+    border: 1px solid #fc0015;
+    
+}
+
+
+.card-content-pop {
+    padding: 0px 0px 10px 15px;
+    text-decoration: none;
+    width: 230px;
+    height: 129px;
+    justify-content: space-between;
+    flex-wrap: wrap; 
+}
+
+.card-txt-pop {
+    color: #000000;
+    margin-bottom: 50px;
+    height: 80px;
+}
+
+.card-title-pop {
+    font-size:16px ;
+    font-weight: 700;
+    color: #000000;
+    text-decoration: none;
+    margin-top: 10px;
+}
+
+.card-subtitle-pop {
+    font-size: 14px;
+    font-weight: 400;
+    margin-top: -5px;
+}
+
+.populaires-title {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: -20px;
+}
+
+.card-rating- {
+    margin-top: -20px;
 }
 
 
